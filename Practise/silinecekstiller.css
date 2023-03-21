@@ -1,0 +1,21 @@
+/*ziyaret edilmeyenlerin rengini değiştiriyor  */
+
+a:link {
+  color: chocolate;
+}
+/*ziyaret olanların rengini değiştiriyor*/
+a:visited {
+  color: rgb(37, 9, 158);
+}
+/* yukarıdaki işlemler olmazsa linklerin hepsinin rengini yeşil yapar*/
+a {
+  color: green;
+}
+/*linklerin arka fonlarını aqua yapar*/
+a:hover {
+  background-color: aqua;
+}
+/*clası title olanın üzerine gelince kırmızı yapar */
+.title:hover {
+  color: red;
+}
